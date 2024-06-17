@@ -25,7 +25,8 @@ console.log("mouse", mouseX)
 console.log("rotate",rotate)
     return (
         <div className="w-full h-screen overflow-hidden">
-            <div className="relative w-full h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-cover bg-center">
+            <div data-scroll data-scroll-speed="-0.7"
+            className="relative w-full h-full bg-[url('https://ochi.design/wp-content/uploads/2022/05/Top-Viewbbcbv-1-1440x921.jpg')] bg-cover bg-center">
                 <div className="absolute gap-10 flex top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <div className="w-[15vw] h-[15vw] rounded-full bg-zinc-100 flex items-center justify-center">
                         <div className="w-2/3 h-2/3 rounded-full bg-zinc-900 flex items-center justify-center">
